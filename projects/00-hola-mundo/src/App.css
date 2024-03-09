@@ -1,0 +1,51 @@
+.twitter-followCard {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: .8rem;
+    justify-content: space-between;
+}
+
+.twitter-followCard-header {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.twitter-followCard-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.twitter-followCard-infoUserName {
+    opacity: .6;
+}
+
+.twitter-followCard-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+}
+
+.twitter-followCard-button {
+    cursor: pointer;
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+    border: 1px solid #000;
+    transition: .3s ease background-color;
+}
+
+.twitter-followCard-button.is-following {
+    border: 1px solid red;
+}
+
+.twitter-followCard-button:hover {
+    background-color: #09f;
+}
+
+.twitter-followCard-button.is-following:hover {
+    background: red;
+}
